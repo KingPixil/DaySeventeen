@@ -1,0 +1,98 @@
+html {
+  height: 100%;
+}
+
+   body   {
+          text-align: center;
+        /* Location of the image */
+  background-image: url('https://images.unsplash.com/photo-1433733071959-30cd185d14a8?ixlib=rb-0.3.5&q=80&fm=jpg&s=1398826a04fc4a1c62f2a46f20857543');
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.quote {
+  font-weight: bold;
+  color: #FFF;
+  font-size: 3em;
+  margin: 50px;
+}
+
+.author {
+  color: #FFF;
+  font-size: 1.5em;
+    margin: 70px;
+  text-align: right;
+}
+
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+/* Button 2 */
+.btn-2 {
+	background: #cb4e4e;
+	color: #fff;
+	box-shadow: 0 6px #ab3c3c;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+    border-radius: 5px;
+}
+
+
+.btn-2:hover {
+	box-shadow: 0 4px #ab3c3c;
+	top: 2px;
+}
+
+.btn-2:active {
+	box-shadow: 0 0 #ab3c3c;
+	top: 6px;
+}
