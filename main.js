@@ -4,7 +4,6 @@ randomNum = 0;
 
 $("button").click(function() {
   generateQuote();
-  generateGradient();
 });
 
 var generateQuote = function() {
