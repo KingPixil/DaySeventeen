@@ -1,9 +1,6 @@
-html {
+html, body {
   height: 100%;
-}
-
-   body   {
-          text-align: center;
+     text-align: center;
         /* Location of the image */
   background-image: url('https://images.unsplash.com/photo-1433733071959-30cd185d14a8?ixlib=rb-0.3.5&q=80&fm=jpg&s=1398826a04fc4a1c62f2a46f20857543');
   
